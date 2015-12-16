@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+table, tr, th, td {
+	border: 1px solid gray;
+}
+
+.blanched-almond-hex {
+	background-color: #ffebcd;
+}
+
+.blanched-almond {
+	background-color: BlanchedAlmond;
+}
+
+.cadet-blue-hex {
+	background-color: #5f9ea0;
+}
+
+.cadet-blue {
+	background-color: CadetBlue;
+}
+
+.burly-wood-hex {
+	background-color: #deb887;
+}
+
+.burly-wood {
+	background-color: BurlyWood;
+}
+
+.dark-olive-green-hex {
+	background-color: #556b2f;
+}
+
+.dark-olive-green {
+	background-color: DarkOliveGreen;
+}
+
+.hot-pink-hex {
+	background-color: #ff69b4;
+}
+
+.hot-pink {
+	background-color: HotPink;
+}
+
+.papaya-whip-hex {
+	background-color: #ffefd5;
+}
+
+.papaya-whip {
+	background-color: Papayawhip;
+}

@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+
+table, 
+tr, 
+th, 
+td {
+	border: 2px solid gray;
+	border-collapse: collapse;
+	padding: 3px;
+}
+
+th {
+	background-color: lightblue;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	border: 2px solid gray;
+	border-radius: 5px;
+	color: black;
+	background-color: lightblue;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+a:hover {
+	color: white;
+	background-color: steelblue;
+}
+
+label {
+	display: inline-block;
+	margin: 5px;
+	width: 120px;
+}
+
+textarea {
+	display: block;
+}
+
+input {
+	margin: 0;
+}
+
+label[for="dr"], 
+label[for="mr"], 
+label[for="mrs"], 
+label[for="ms"] {
+	margin-left: 0;
+	width: 25px;
+}
+
+button {
+	margin-top: 10px;
+}
+#region {
+	width: 40px;
+}
+
+#country, 
+#ext {
+	width: 50px;
+}
+
+#post-code, 
+#pass, 
+#repeat-pass {
+	width: 60px;
+}
+
+#fname, 
+#lname, 
+#home-phone {
+	width: 100px;
+}
+
+#title, 
+#city {
+	width: 190px;
+}
+
+#address {
+	width: 300px;
+}
